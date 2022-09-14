@@ -1,0 +1,38 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand navimage" href="#">
+        <img src="assets/23.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" routerLink="">{{item}}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" routerLink="card">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" routerLink="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" routerLink="contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" #search type="search" placeholder="Search" aria-label="Search">
+            <button (click)="getdata(search.value)" class="btn my-2 my-sm-0 searchimage" type="submit">
+                <img src="assets/24.png" alt="search" />
+            </button>
+        </form>
+    </div>
+    <!-- <p>{{displaytext}}</p> -->
+</nav>

@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-8 col-md-12 col-12 home">
+      <h1 class="heading">Welcome to Ecom</h1>
+      <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi, veniam itaque iure eveniet dolores deleniti adipisci blanditiis, enim dolorem expedita quas delectus ipsa omnis ea odio cum porro eius consequuntur provident quos numquam.</p>
+      <h3 class="para">Please fill in the details to see our products</h3>
+      <div class="container">
+        <h6 class="para">Subscribe to our daily news letters Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eius sint magnam officia?</h6>
+        <form #newform = "ngForm" (ngSubmit) = userLogin(newform.value)>
+          <input type="text" placeholder="Enter your username" name="user" ngModel>
+          <input type="password" placeholder="Enter your password" name="pass" ngModel>
+          <button class="button">
+             Submit
+          </button>
+        </form>
+      </div>
+   
+    </div>
+    <div class="col-lg-4 col-md-12 col-12 home2">
+      <div class="img">
+        <img src="assets/c4.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<app-card></app-card>
