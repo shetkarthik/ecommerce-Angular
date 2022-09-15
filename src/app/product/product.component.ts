@@ -39,6 +39,7 @@ export class ProductComponent implements OnInit {
       "color": "yellow",
       "pimage":"https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
       "pdesc":"  Lorem ipsum, loribus blanditiis, tempore nihil minima."
+      
     },
     {
       "pid": "103",

@@ -1,0 +1,17 @@
+.container-fluid{
+    
+    height: 600px;
+    /* background-color: black; */
+}
+.container-fluid ::before{
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+   position: absolute;
+    background:url("https://i.pinimg.com/originals/62/90/bd/6290bdcada4609ffd7c3f1c70a3981ac.png")no-repeat center ;
+    width: 100%;
+    height:100%;
+    opacity: 1;
+   
+}

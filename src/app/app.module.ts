@@ -11,6 +11,7 @@ import {FormsModule} from "@angular/forms";
 import { CardComponent } from './home/card/card.component';
 
 import { ProductComponent } from './product/product.component';
+import { ChanelComponent } from './chanel/chanel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductComponent } from './product/product.component';
     AboutComponent,
     ContactComponent,
     ProductComponent,
-    CardComponent
+    CardComponent,
+    ChanelComponent
   ],
   imports: [
     BrowserModule,

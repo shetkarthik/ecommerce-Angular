@@ -48,9 +48,15 @@
 
 .card-text{
   font-family: fangsong;
+  text-align: center;
 }
 .green{
   color: green;
 }
 
+.textcontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
