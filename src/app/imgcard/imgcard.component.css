@@ -1,0 +1,15 @@
+.images img:hover{
+    transition: all 2s ease-out;
+    opacity: 1;
+} 
+
+
+.images{
+    float: left;
+}
+.images img{
+    width: 70px;
+    height: 70px;
+    margin: 12px;
+    opacity: 0.3;
+} 

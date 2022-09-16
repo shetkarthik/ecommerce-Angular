@@ -5,6 +5,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductComponent } from './product/product.component';
 import { ChanelComponent } from './chanel/chanel.component';
+import { ZaraComponent } from './zara/zara.component';
+import { GucciComponent } from './gucci/gucci.component';
 
 const routes: Routes = [
   {path: '',component:HomeComponent},
@@ -12,6 +14,8 @@ const routes: Routes = [
   {path: 'contact',component:ContactComponent},
   {path:'card', component:ProductComponent},
   {path:'chanel', component:ChanelComponent},
+  {path:'zara', component:ZaraComponent},
+  {path:'gucci', component:GucciComponent},
 ];
 
 @NgModule({

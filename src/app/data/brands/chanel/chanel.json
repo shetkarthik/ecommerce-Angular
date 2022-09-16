@@ -1,0 +1,29 @@
+[
+  {
+    "pid": "1",
+    "pname": "Chanel Exclusive",
+    "status": "Active",
+    "color": "green",
+    "pimage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTA7jtOz0Q0FusLap4GT1u7R_EhzXBoppr_hxKnaz-J_em8qo6qsj-V0imkaGHv7SDmrZ6R0O_u_WDXxJG7OE9iQe8N5vfdZ4AXVvQ3r5w&usqp=CAE",
+    "pdesc": " Lorem  explicabo magnam, molestias nulla culpa doloribus blanditiis, tempore nihil minima.",
+    "price": "25000"
+  },
+  {
+    "pid": "2",
+    "pname": "Chanel black lagoon",
+    "status": "InActive",
+    "color": "red",
+    "pimage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRPjACZgS14lcpFcJSQajPTPhw13lUkgbTyqJTrs6LEIO7CAlRiREgXoqB8XSDrF-C0gvJ7FI_oOtCNlpq7WjzBwHVG1DfnCvb3hh-sFg_JGB5WvcYQ6Fa4GsA&usqp=CAE",
+    "pdesc": "  Lorem ipsum, oloribus blanditiis, tempore nihil minima.",
+    "price": "72500"
+  },
+  {
+    "pid": "3",
+    "pname": "Chanel Symphany",
+    "status": "Out of Stock",
+    "color": "yellow",
+    "pimage": "https://dillibazar.in/wp-content/uploads/chanel-bags.jpg",
+    "pdesc": "  Lorem ipsum, loribus blanditiis, tempore nihil minima.",
+    "price": "45999"
+  }
+]

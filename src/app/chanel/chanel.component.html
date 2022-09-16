@@ -1,5 +1,99 @@
 <div class="container-fluid">
     <div class="container">
-       
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="textcontainers">
+                    <h1 class="heading">Chanel</h1>
+                </div>
+                <h3 class="subheading">"Luxury in your hands"</h3>
+                <p class="para">Chanel has been the most promising brand around the world Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Provident doloribus illum assumenda fuga quae vitae velit deserunt
+                    magni. Nobis impedit dolor maiores numquam libero voluptate nisi blanditiis obcaecati nihil.
+                    Incidunt molestias unde assumenda, voluptate debitis cupiditate eum tenetur illo culpa.
+                    Reprehenderit cum esse cupiditate ullam!</p>
+                <app-imgcard></app-imgcard>
+                <!-- <div *ngFor="let img of images">
+                <div class="images">
+                    <img src="{{img}}" alt="">
+                </div>
+            </div> -->
+
+                <!-- <div class="images">
+                <img src="assets/c2.jpg" alt="">
+                <img src="assets/c3.jpg" alt="">
+                <img src="assets/c4.jpg" alt="">
+            </div> -->
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="imgcontainer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cardcontainer">
+        <h1 class="subheadings">More About us</h1>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+             <div class="subtextcontainer">
+                <h2 class="subheading">Chanel representing in International Film festival</h2>
+                <p class="para">During the 79th edition of the Venice International Film Festival, actress and House
+                    ambassador Tilda Swinton presented ‘The Eternal Daughter’ by Joanna Hogg in which she plays one of
+                    the leading roles.
+                    In this episode, Tilda Swinton is joined by Carly-Sophia Davies, the actress she shares the bill
+                    with. Together, they mention how they developped their characters with the director and what it
+                    means to be accompanied by CHANEL throughout the festival.</p>
+             </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="videocontainer">
+                    <iframe width="560" height="355"
+                        src="https://www.youtube.com/embed/zkRMPdiLWrg?autoplay=1&mute=1&playlist=zkRMPdiLWrg&loop=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="productcontainer">      
+<div class="ccontainer-fluid">
+    <h1 class="subheadings">Our products</h1>
+      <div class="row">
+          <div *ngFor="let prods of cd" [ngSwitch]="prods.status">
+              <div class="ccontainer">
+               <div class="col-lg-3 col-md-4 col-12">
+                  <div class="card" style="width: 18rem; height: 25rem;">
+                  <img src={{prods.pimage}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{prods.pname}}</h5>
+                    <p [style.color]="'black'" class="card-text">{{prods.pdesc}}</p>
+                    <!-- <p class="card-text green">{{prods.status}}</p> -->
+                    <div class="ctextcontainer">
+                    <p *ngSwitchCase="'Active'" class="text-success">
+                      {{prods.status}}
+                    </p>
+                    <p *ngSwitchCase="'InActive'" class="text-warning">
+                      {{prods.status}}
+                    </p>
+                    <p *ngSwitchCase="'Out of Stock'" class="text-danger">
+                      {{prods.status}}
+                    </p>
+                    <h6>{{prods.price | currency:"INR"}}</h6>
+                  </div>
+                  </div>
+                  <div class="cnewbtn">
+                <button class="btn cfirstbtn">
+                   <img src="assets/25.png" alt="">
+                </button>
+                  </div>
+                </div> 
+                <br>
+                </div> 
+             </div>
+  
+      </div>
+      </div>
+   
+  </div>
     </div>
 </div>

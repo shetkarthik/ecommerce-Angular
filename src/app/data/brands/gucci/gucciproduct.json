@@ -1,0 +1,33 @@
+[
+    {
+        "pid": "1",
+        "pname": "Gucci Horsebit",
+        "status": "Active",
+        "color": "green",
+        "pimage":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_800x800/1661185803/602204_FAARG_9754_001_074_0000_Light-Gucci-Horsebit-1955-small-bag.jpg",
+        "pdesc":" Lorem  explicabo magnam, molestias nulla culpa doloribus blanditiis, tempore nihil minima.",
+        "price":"45000"
+        
+      },
+      {
+        "pid": "2",
+        "pname": "Gucci Medium canvas",
+        "status": "InActive",
+        "color": "red",
+        "pimage":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_800x800/1660261593/715666_AAA0O_9041_001_082_0000_Light-Medium-canvas-top-handle-bag.jpg",
+        "pdesc":"  Lorem ipsum, oloribus blanditiis, tempore nihil minima.",
+        "price":"92500"
+      },
+      {
+        "pid": "3",
+        "pname": "Gucci Dionysus",
+        "status": "Out of Stock",
+        "color": "yellow",
+        "pimage":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_800x800/1660320903/400249_FAARG_9752_001_076_0000_Light-Dionysus-small-shoulder-bag.jpg",
+        "pdesc":"  Lorem ipsum, loribus blanditiis, tempore nihil minima.",
+        "price":"85999"
+        
+      }
+
+      
+]

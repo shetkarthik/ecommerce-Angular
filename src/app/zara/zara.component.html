@@ -1,0 +1,89 @@
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let t of zd" class="col-lg-6 col-md-6 col-12">
+                <div  class="textcontainers">
+                    <h1 class="heading">{{t.heading}}</h1>
+                </div>
+                <h3 class="subheading">{{t.subheading}}</h3>
+                <p class="para">{{t.para}}</p>
+                <app-imgcard></app-imgcard>
+                <!-- <div *ngFor="let img of images">
+                <div class="images">
+                    <img src="{{img}}" alt="">
+                </div>
+            </div> -->
+
+                <!-- <div class="images">
+                <img src="assets/c2.jpg" alt="">
+                <img src="assets/c3.jpg" alt="">
+                <img src="assets/c4.jpg" alt="">
+            </div> -->
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="imgcontainer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cardcontainer">
+        <h1 class="subheadings">More About us</h1>
+        <div class="row">
+            <div *ngFor="let t of zd" class="col-lg-6 col-md-6 col-12">
+                <div class="subtextcontainer">
+                    <h2 class="subheading">{{t.csubhead}}</h2>
+                    <p class="para">{{t.cpara}}</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="videocontainer">
+                    <iframe width="560" height="355" src="https://www.youtube.com/embed/gKCmezkfWbE?autoplay=1&mute=1&playlist=gKCmezkfWbE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="productcontainer">
+        <div class="ccontainer-fluid">
+            <h1 class="subheadings">Our products</h1>
+            <div class="row">
+                <div *ngFor="let prods of zpd" [ngSwitch]="prods.status">
+                    <div class="ccontainer">
+                        <div class="col-lg-3 col-md-4 col-12">
+                            <div class="card" style="width: 18rem; height: 25rem;">
+                                <img src={{prods.pimage}} class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{prods.pname}}</h5>
+                                    <p [style.color]="'black'" class="card-text">{{prods.pdesc}}</p>
+                                    <!-- <p class="card-text green">{{prods.status}}</p> -->
+                                    <div class="ctextcontainer">
+                                        <p *ngSwitchCase="'Active'" class="text-success">
+                                            {{prods.status}}
+                                        </p>
+                                        <p *ngSwitchCase="'InActive'" class="text-warning">
+                                            {{prods.status}}
+                                        </p>
+                                        <p *ngSwitchCase="'Out of Stock'" class="text-danger">
+                                            {{prods.status}}
+                                        </p>
+                                        <h6>{{prods.price | currency:"INR"}}</h6>
+                                    </div>
+                                </div>
+                                <div class="cnewbtn">
+                                    <button class="btn cfirstbtn">
+                                        <img src="assets/25.png" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

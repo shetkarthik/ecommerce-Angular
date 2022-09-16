@@ -1,0 +1,86 @@
+ [
+    {
+      "pid": "100",
+      "pname": "Decor",
+      "status": "Active",
+      "color": "green",
+      "price":"25000",
+      "pimage":"https://i.pinimg.com/originals/62/90/bd/6290bdcada4609ffd7c3f1c70a3981ac.png",
+      "pdesc":"  Lorem  explicabo magnam, molestias nulla culpa doloribus blanditiis, tempore nihil minima."
+    },
+    {
+      "pid": "101",
+      "pname": "Gucci",
+      "status": "InActive",
+      "color": "red",
+      "price":"55000",
+      "pimage":"https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
+      "pdesc":"  Lorem ipsum, oloribus blanditiis, tempore nihil minima."
+    },
+    {
+      "pid": "102",
+      "pname": "Chanel",
+      "status": "Out of Stock",
+      "color": "yellow",
+      "price":"60000",
+      "pimage":"https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
+      "pdesc":"  Lorem ipsum, loribus blanditiis, tempore nihil minima."
+      
+    },
+    {
+      "pid": "103",
+      "pname": "Suzy",
+      "status": "Active",
+      "color": "green",
+      "price":"5000",
+      "pimage":"https://m.media-amazon.com/images/I/61e+T7UqcyL._AC_SL1500_.jpg",
+      "pdesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore."
+    },
+    {
+      "pid": "104",
+      "pname": "Sugar",
+      "status": "InActive",
+      "color": "red",
+      "price":"15000",
+      "pimage":"https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
+      "pdesc":"  Lorem ipsum, olestias nulla culpa doloribus blanditiis, tempore nihil minima."
+    },
+    {
+      "pid": "105",
+      "pname": "Nyka",
+      "status": "Active",
+      "color": "green",
+      "price":"12500",
+      "pimage":"https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
+      "pdesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore."
+    },
+    {
+      "pid": "106",
+      "pname": "Beethoven",
+      "status": "Out of Stock",
+      "color": "yellow",
+      "price":"45750",
+      "pimage":"https://m.media-amazon.com/images/I/61e+T7UqcyL._AC_SL1500_.jpg",
+      "pdesc":"           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore."
+    },
+    {
+      "pid": "107",
+      "pname": "Zara",
+      "status": "Out of Stock",
+      "color": "yellow",
+      "price":"67500",
+      "pimage":"https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
+      "pdesc":"  Lorem ipsum, dolor plicabo magnam, molestias nulla culpa doloribus blanditiis, tempore nihil minima."
+    },
+    {
+      "pid": "108",
+      "pname": "Shizel",
+      "status": "Out of Stock",
+      "color": "yellow",
+      "price":"40000",
+      "pimage":"https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
+      "pdesc":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore."
+    }
+  ]
+
+

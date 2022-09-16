@@ -1,0 +1,163 @@
+.container-fluid{
+    height: 1700px;
+     background-color: black;
+  }
+  .imgcontainer{
+      content: "";
+      position: absolute;
+      background:url("https://static.zara.net/photos///2022/I/1/1/p/6528/010/092/2/w/750/6528010092_6_1_1.jpg?ts=1661860261409")no-repeat center center/cover ;
+      width: 100%;
+      height:550px;
+      opacity: 0.3;
+  }
+  .imgcontainer:hover{
+      transition: all 2s ease-out;
+      opacity: 1;
+  }
+  
+  .textcontainers{
+      margin-top: 23px;
+      display: flex;
+     
+  }
+  .subtextcontainer{
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+     
+  }
+  
+  .heading{
+      font-size: 5pc;
+      color: white;
+      font-family: fangsong;
+  }
+  
+  
+  
+  .subheading{
+      font-style: italic;
+      padding: 12px;
+      font-size: 2pc;
+      color: white;
+      font-family: fangsong;
+  }
+  
+  .para{
+      /* text-align: center; */
+      font-family: fangsong;
+      color: white;
+  }
+  
+  /* .images img:hover{
+      transition: all 2s ease-out;
+      opacity: 1;
+  } 
+  
+  
+  .images{
+      float: right;
+  }
+  .images img{
+      width: 150px;
+      height: 150px;
+      margin: 12px;
+      opacity: 0.3;
+  }  */
+  
+  .cardcontainer{
+      margin-top: 76px;
+      height: 450px;
+      /* background-color: aqua; */
+  }
+  
+  .subheadings{
+      text-align: center;
+      padding: 12px;
+      font-style: italic;
+      font-family: fangsong;
+      color: white;
+  }
+  
+  .videocontainer{
+      margin-top: 35px;
+  }
+  
+  .productcontainer{
+      margin-top: 23px;
+      height: 500px;
+      background-color: aqua;
+  }
+  .ccontainer{
+      display: grid;
+      place-items: center;
+    }
+    
+    .ccontainer-fluid{
+        background-color: black;
+    }
+  
+    .card-title{
+      text-align: center;
+      font-family: fansong;
+      font-weight: 700;
+    }
+    
+    .card{
+      width: 100%;
+      height: 100%;
+    }
+    
+    .card-text{
+      text-size-adjust :initial;
+    }
+    
+    .card img{
+        height: 150px;
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    
+    .cfirstbtn{
+      border: 1px solid black;
+      background-color: white;
+      width: 100px;
+        margin: 3px;  
+    }
+    
+    .cfirstbtn img{
+      width: 30px;
+      height: 23px;
+    }
+    .cnewbtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .cheading{
+      text-align: center;
+      color: white;
+      font-family: fangsong;
+      font-size: 3.5pc;
+      margin: 23p;
+      padding: 15px;
+    }
+    
+    .card-text{
+      font-family: fangsong;
+      text-align: center;
+    }
+    .cgreen{
+      color: green;
+    }
+    
+    .ctextcontainer{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    
+    

@@ -12,6 +12,9 @@ import { CardComponent } from './home/card/card.component';
 
 import { ProductComponent } from './product/product.component';
 import { ChanelComponent } from './chanel/chanel.component';
+import { ImgcardComponent } from './imgcard/imgcard.component';
+import { ZaraComponent } from './zara/zara.component';
+import { GucciComponent } from './gucci/gucci.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ChanelComponent } from './chanel/chanel.component';
     ContactComponent,
     ProductComponent,
     CardComponent,
-    ChanelComponent
+    ChanelComponent,
+    ImgcardComponent,
+    ZaraComponent,
+    GucciComponent
   ],
   imports: [
     BrowserModule,

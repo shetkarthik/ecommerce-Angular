@@ -1,9 +1,10 @@
-.container{
-  display: grid;
-  place-items: center;
+.ccontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-fluid{
+.ccontainer-fluid{
     background-color: black;
 }
 
@@ -15,29 +16,37 @@
 .card-text{
   text-size-adjust :initial;
 }
-
-.card img{
-    height: 150px;
+.card-title{
+  text-align: center;
+  font-family: fansong;
+  font-weight: 700;
 }
 
-.firstbtn{
+.card img{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.cfirstbtn{
   border: 1px solid black;
   background-color: white;
   width: 100px;
     margin: 3px;  
 }
 
-.firstbtn img{
+.cfirstbtn img{
   width: 30px;
   height: 23px;
 }
-.newbtn{
+.cnewbtn{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.heading{
+.cheading{
   text-align: center;
   color: white;
   font-family: fangsong;
@@ -50,11 +59,11 @@
   font-family: fangsong;
   text-align: center;
 }
-.green{
+.cgreen{
   color: green;
 }
 
-.textcontainer{
+.ctextcontainer{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

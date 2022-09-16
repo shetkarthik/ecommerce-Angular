@@ -1,17 +1,17 @@
 
-<div class="container-fluid">
-  <h1 class="heading">Our products</h1>
+<div class="ccontainer-fluid">
+  <h1 class="cheading">Our products</h1>
     <div class="row">
-        <div *ngFor="let prods of ProductDetails" [ngSwitch]="prods.status">
-            <div class="container">
-             <div class="col-lg-4 col-md-4 col-12">
-                <div class="card" style="width: 18rem; height: 25rem;">
+        <div *ngFor="let prods of product" [ngSwitch]="prods.status">
+            <div class="ccontainer">
+             <div class="col-lg-3 col-md-4 col-12">
+                <div class="card" style="width: 19rem; height: 25rem;">
                 <img src={{prods.pimage}} class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">{{prods.pname}}</h5>
                   <p [style.color]="'black'" class="card-text">{{prods.pdesc}}</p>
                   <!-- <p class="card-text green">{{prods.status}}</p> -->
-                  <div class="textcontainer">
+                  <div class="ctextcontainer">
                   <p *ngSwitchCase="'Active'" class="text-success">
                     {{prods.status}}
                   </p>
@@ -21,11 +21,11 @@
                   <p *ngSwitchCase="'Out of Stock'" class="text-danger">
                     {{prods.status}}
                   </p>
-                  <p>100</p>
+                  <h6>{{prods.price | currency:"INR"}}</h6>
                 </div>
                 </div>
-                <div class="newbtn">
-              <button class="btn firstbtn">
+                <div class="cnewbtn">
+              <button class="btn cfirstbtn">
                  <img src="assets/25.png" alt="">
               </button>
                 </div>
