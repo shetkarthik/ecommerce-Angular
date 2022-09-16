@@ -1,22 +1,117 @@
-
-.home{
-    height: 600px;
-    width: 70%;
-    background-color :rgb(0, 0, 0);
-    color: white;
+.container-fluid{
+    height: 2000px;
+    background-color: black;
 }
-.home2{
+
+.heading{
+    text-align: center;
+    font-size: 5.7pc;
+    color: white;
+    margin-left: 40px;
+    font-family: fangsong;
+    margin-bottom: 0;
+}
+
+
+.imaging{
+    float: right;
+    height:300px;
+}
+
+
+.imgcontainer{
+    height: 720px;
+}
+
+.para{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: fangsong;
+    font-size: 1.4pc;
+    margin-left: 30px;
+}
+
+
+
+.imgcontainer::before{
+    content: "";
+    position: absolute;
+    background: url("https://i.pinimg.com/736x/d2/04/81/d204816d21bc93ed75df254cc842d12d.jpg")no-repeat center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    /* z-index: -1; */
+}
+
+.subheading{
+    color: white;
+    text-align: center;
+    font-size: 2.2pc;
+    font-family: fansong;
+    margin-top: 23px;
+}
+
+
+
+.appimg{
+    height: 150px;
+    /* background-color: blue; */
+    padding: 5px 1px 1px 150px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 600px;
-    width: 30%;
-    background-color :rgb(0, 0, 0);
+    /* background-color: aqua; */
+}
+
+.spara{
+    font-style: italic;
+    font-family: fangsong;
+    text-align: center;
+    color: white;
+    font-size: 1.2pc;
+}
+
+.contentheading{
+    color: white;
+    font-family: fangsong;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4pc;
+    font-weight: 100;
+}
+
+.videocontainer{
+    margin-top: 35px;
+}
+.marque{
+    color: white;
+    margin-bottom: 12px;
+    font-family: fansong;
+}
+
+.designers{
+    height: 500px;
+    color: white;
+    /* background-color: aqua; */
+}
+
+.img{
+    display: block;
+    margin: auto;
 }
 
 .img img{
     position: absolute;
-    height:600px;
-    width: 100%;
+    width: 90%;
+    height: 350px;
     opacity: 0.4;
-    /* width: 100%; */
 }
 
 .img img:hover{
@@ -24,45 +119,10 @@
     opacity: 1;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.heading{
-    font-size: 5pc;
-    font-family: auto;
+.desheading{
     text-align: center;
-    margin : 50px;
-}
-.para{
-    font-family: auto;
-    text-align: center; 
-}
-form{
-  display: flex;
-  flex-direction: column;
-}
-
-form input{
-    padding: 3px 75px 5px 5px;
-    margin: 8px;
-    border: none;
-    outline: none;
-}
-.button{
-    padding: 6px 9px 5px 9px;
-    margin: 6px;
-    border: 1px solid black;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-}
-
-.button:hover{
-    transition: all 2s ease-in-out;
-    background-color: #FFD700;
-    color: black ;
+    font-family: fangsong;
+    font-style: italic;
+    font-size: 2.4pc;
+    margin-bottom: 23px;
 }
