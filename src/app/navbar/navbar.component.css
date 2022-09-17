@@ -2,11 +2,14 @@
 
 .navbar{
     background-color: black;
+    font-family: fangsong;
+    font-size: 17px;
 }
 
 .navbar-nav li a{
     color: white;
 }
+
 
 
 

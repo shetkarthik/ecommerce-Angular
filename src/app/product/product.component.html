@@ -1,4 +1,3 @@
-
 <div class="ccontainer-fluid">
   <h1 class="cheading">Our products</h1>
     <div class="row">
@@ -8,10 +7,13 @@
                 <div class="card" style="width: 19rem; height: 25rem;">
                 <img src={{prods.pimage}} class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">{{prods.pname}}</h5>
-                  <p [style.color]="'black'" class="card-text">{{prods.pdesc}}</p>
+                  <div class="center">
+                    <h5 class="card-title">{{prods.pname}}</h5>
+                    <span (click)="show_details(prods)" [ngClass]="toggleClass(prods)"></span>
+                  </div>
+                  <p *ngIf="prods.isOpen==true" [style.color]="'black'" class="card-text">{{prods.pdesc}}</p>
                   <!-- <p class="card-text green">{{prods.status}}</p> -->
-                  <div class="ctextcontainer">
+                  <div *ngIf="prods.isOpen==true" class="ctextcontainer">
                   <p *ngSwitchCase="'Active'" class="text-success">
                     {{prods.status}}
                   </p>
@@ -26,8 +28,9 @@
                 </div>
                 <div class="cnewbtn">
               <button class="btn cfirstbtn">
-                 <img src="assets/25.png" alt="">
+                <i class="fa-solid fa-cart-plus"></i>
               </button>
+              <app-counter></app-counter>
                 </div>
               </div> 
               <br>

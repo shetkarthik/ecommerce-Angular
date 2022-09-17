@@ -6,7 +6,8 @@
       "color": "green",
       "price":"25000",
       "pimage":"https://i.pinimg.com/originals/62/90/bd/6290bdcada4609ffd7c3f1c70a3981ac.png",
-      "pdesc":"  Lorem  explicabo magnam, molestias nulla culpa doloribus blanditiis, tempore nihil minima."
+      "pdesc":"  Lorem  explicabo magnam, molestias nulla culpa doloribus blanditiis, tempore nihil minima.",
+      "isOpen":false
     },
     {
       "pid": "101",
@@ -15,7 +16,8 @@
       "color": "red",
       "price":"55000",
       "pimage":"https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
-      "pdesc":"  Lorem ipsum, oloribus blanditiis, tempore nihil minima."
+      "pdesc":"  Lorem ipsum, oloribus blanditiis, tempore nihil minima.",
+      "isOpen":false
     },
     {
       "pid": "102",
@@ -24,7 +26,8 @@
       "color": "yellow",
       "price":"60000",
       "pimage":"https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
-      "pdesc":"  Lorem ipsum, loribus blanditiis, tempore nihil minima."
+      "pdesc":"  Lorem ipsum, loribus blanditiis, tempore nihil minima.",
+      "isOpen":false
       
     },
     {
@@ -34,7 +37,8 @@
       "color": "green",
       "price":"5000",
       "pimage":"https://m.media-amazon.com/images/I/61e+T7UqcyL._AC_SL1500_.jpg",
-      "pdesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore."
+      "pdesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore.",
+      "isOpen":false
     },
     {
       "pid": "104",
@@ -43,7 +47,8 @@
       "color": "red",
       "price":"15000",
       "pimage":"https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
-      "pdesc":"  Lorem ipsum, olestias nulla culpa doloribus blanditiis, tempore nihil minima."
+      "pdesc":"  Lorem ipsum, olestias nulla culpa doloribus blanditiis, tempore nihil minima.",
+      "isOpen":false
     },
     {
       "pid": "105",
@@ -52,7 +57,8 @@
       "color": "green",
       "price":"12500",
       "pimage":"https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
-      "pdesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore."
+      "pdesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore.",
+      "isOpen":false
     },
     {
       "pid": "106",
@@ -61,7 +67,8 @@
       "color": "yellow",
       "price":"45750",
       "pimage":"https://m.media-amazon.com/images/I/61e+T7UqcyL._AC_SL1500_.jpg",
-      "pdesc":"           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore."
+      "pdesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore.",
+      "isOpen":false
     },
     {
       "pid": "107",
@@ -70,7 +77,8 @@
       "color": "yellow",
       "price":"67500",
       "pimage":"https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
-      "pdesc":"  Lorem ipsum, dolor plicabo magnam, molestias nulla culpa doloribus blanditiis, tempore nihil minima."
+      "pdesc":"  Lorem ipsum, dolor plicabo magnam, molestias nulla culpa doloribus blanditiis, tempore nihil minima.",
+      "isOpen":false
     },
     {
       "pid": "108",
@@ -79,8 +87,10 @@
       "color": "yellow",
       "price":"40000",
       "pimage":"https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
-      "pdesc":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore."
+      "pdesc":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore.",
+      "isOpen":false
     }
   ]
+
 
 

@@ -14,5 +14,26 @@ export class ProductComponent implements OnInit {
 
  product: any =(productdetails as any).default;
 
-  array : string[] = ["a","b","c","d","e"];
+ 
+// show = false;
+
+
+ show_details(product:any){
+  //  this.show = !this.show;
+   product.isOpen = !product.isOpen;
+ }
+
+ toggleClass(product:any){
+  var content = "";
+  if(product.isOpen==false)
+  {
+    content="fa-solid fa-caret-down";
+  }
+  else{
+    content="fa-solid fa-caret-up";
+  }
+  return content;
+ }
+
+  
 }
