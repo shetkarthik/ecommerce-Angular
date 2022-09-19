@@ -98,6 +98,7 @@
 
 .designers{
     height: 500px;
+    margin-top: 23px;
     color: white;
     /* background-color: aqua; */
 }
@@ -126,3 +127,105 @@
     font-size: 2.4pc;
     margin-bottom: 23px;
 }
+
+@media screen and (max-width:1120px) {
+    .container-fluid {
+        height: 1870px;
+    }
+
+    .content{
+      height: 370px;
+      width: 100vw;
+    }
+
+    .designers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       height:370px;
+       margin-top: 23px;
+    }
+    .videocontainer iframe{
+        width: 400px;
+        height: 300px;
+    }
+    .videocontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .appimg{
+        padding: 0;
+    }
+    .marque{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:1050px) {
+    .container-fluid {
+        height: 2010px;
+    }
+
+    .content{
+      height: 370px;
+      width: 100vw;
+    }
+
+    .designers{
+       height:400px;
+    }
+    .videocontainer iframe{
+        width: 400px;
+        height: 300px;
+    }
+    .videocontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .appimg{
+        padding: 0;
+    }
+    .marque{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:770px){
+
+    .container-fluid{
+        height: 2400px;
+    }
+
+     .content{
+        height: 750px;
+     }
+     .designers{
+        height: 200px;
+     }
+}
+@media screen and (max-width:690px){
+   .designers{
+    height: 360px;
+   }
+}
+@media screen and (max-width:500px){
+   .container-fluid{
+    height: 2600px;
+   }
+   .desheading{
+    font-size: 2pc;
+    margin-bottom: 0;
+   }
+   .subheading{
+    font-size: 1.3pc;
+   }
+   .contentheading{
+    font-size: 1.2pc;
+   }
+}
+
+

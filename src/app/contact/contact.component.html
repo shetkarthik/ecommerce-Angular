@@ -1,7 +1,47 @@
-<div class="container">
-   <form #newform = "ngForm" (ngSubmit) = userLogin(newform.value)>
-      <input type="email" placeholder="Enter your email" name="email" ngModel>
-      <input type="password" placeholder="Enter your password" name="password" ngModel>
-      <button>Submit</button>
-   </form>
+<div class="container-fluid">
+   <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-12" style="padding: 0;">
+        <div class="imgcontainer">
+            <img src="assets/c4.jpg" alt="">
+         </div>
+      </div>  
+      <div class="col-lg-8 col-md-8 col-sm-6 col-12" style="padding: 0;">
+         <div class="contact_container">
+            <h1 class="heading">Contact-us</h1>
+            <p class="subheading">ECMA always at your service</p>
+         <div class="container">
+            <form #newform = "ngForm" (ngSubmit) = userLogin(newform.value) novalidate>
+               <div class="form-group">
+                 <label for="exampleInputEmail1">Name</label>
+                 <input type="text" class="form-control" name="name" [(ngModel)]="userModel.name" aria-describedby="emailHelp" placeholder="Enter your name">
+               </div>
+               <div class="form-group">
+                 <label for="exampleInputEmail1">Phone</label>
+                 <input type="text" class="form-control" name="phone" [(ngModel)]="userModel.phone" aria-describedby="emailHelp" placeholder="Enter your phone no.">
+               </div>
+               <div class="form-group">
+                 <label for="exampleInputEmail1">Email address</label>
+                 <input type="email" class="form-control" name="email" [(ngModel)]="userModel.email" aria-describedby="emailHelp" placeholder="Enter your Email-Id">
+               </div>
+               <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" name="message" [(ngModel)]="userModel.message" rows="3"></textarea>
+                </div>
+               <button class="btn btn-dark newbtn">Submit</button>
+             </form>
+         </div>
+         
+        </div>
+      </div>
+   </div>
 </div>
+
+<!-- 
+<form >
+               
+   <input type="email" placeholder="Enter your email" >
+   <br>
+   <input type="password" placeholder="Enter your password" >
+   <br>
+   <button>Submit</button>
+</form> -->
