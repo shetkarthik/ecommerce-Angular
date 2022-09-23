@@ -24,7 +24,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContactComponent } from './contact/contact.component';
+
 
 
 @NgModule({
@@ -46,7 +46,7 @@ import { ContactComponent } from './contact/contact.component';
     SignupComponent,
     CartItemsComponent,
     FooterComponent,
-    ContactComponent,
+
   ],
   imports: [
     BrowserModule,
