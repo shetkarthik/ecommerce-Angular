@@ -1,7 +1,7 @@
 
 <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand navimage" href="#">
-        <img src="assets/logo.jpg" alt="">
+        <img src="assets/logo2.png" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,37 +18,65 @@
             <li class="nav-item">
                 <a class="nav-link" href="#" routerLink="card">Products</a>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Brands
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#" routerLink="chanel"><span class="text-dark">Chanel</span></a>
-                  <a class="dropdown-item" href="#"routerLink="zara"><span class="text-dark">ZARA</span></a>
-                  <a class="dropdown-item" href="#"routerLink="gucci"><span class="text-dark">Gucci</span></a>
+                 
 
                   </div>                  
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Brands
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#" routerLink="chanel"><span class="text-dark">Chanel</span></a>
+                    <a class="dropdown-item" href="#"routerLink="zara"><span class="text-dark">ZARA</span></a>
+                    <a class="dropdown-item" href="#"routerLink="gucci"><span class="text-dark">Gucci</span></a>
+  
+                </div>
               </li>
             <!-- <li class="nav-item">
                 <a class="nav-link" href="#" routerLink="about">About</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link" href="#" routerLink="contact">Contact</a>
+                <a class="nav-link" href="#" routerLink="about">Comingsoon...</a>
             </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-            </li> -->
+            
             <li class="nav-item">
-                <a class="nav-link" href="#">{{data}}</a>
+                <a class="nav-link" href="#" routerLink="signup" *ngIf="!auth">Signup</a>
             </li>
-
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" #search type="search" placeholder="Search" aria-label="Search">
             <button (click)="getdata(search.value)" class="btn my-2 my-sm-0 searchimage" type="submit">
-                <img src="assets/24.png" alt="search" />
+                <i class="fa-solid fa-magnifying-glass" style="color:black;
+                font-size: 20px;"></i>
             </button>
+         
         </form>
+        <button routerLink="cartitem" style="height: 36px;
+        padding: 9px;
+        margin-left: 5px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        /* border: 1px solid black; */
+        border-radius: 6px
+    px
+    ;">
+      
+            <span class="fa-solid fa-cart-plus" style="font-size: 16px; color: black;">
+                <sup class="text-dark" style="font-size:10px;margin-left: 3px;">
+                {{cartCount}}
+                <!-- 1 -->
+            </sup>
+        </span>
+          </button> &nbsp;&nbsp;&nbsp;
+          <a class="btn logbtn" type="submit" routerLink="login"
+            *ngIf="auth">Logout</a>
     </div>
     <!-- <p>{{displaytext}}</p> -->
 </nav>

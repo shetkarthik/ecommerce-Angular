@@ -1,0 +1,21 @@
+.prodimg{
+    height:40px;
+    width:40px;
+    margin-left:100px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+
+}
+
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 80%;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}

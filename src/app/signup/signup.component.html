@@ -1,0 +1,72 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12" style="padding: 0;">
+            <div class="imgcontainer">
+                <img src="assets/c4.jpg" alt="">
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-6 col-12" style="padding: 0;">
+            <div class="contact_container">
+                <h1 class="heading">Sign-up</h1>
+
+                <div class="container">
+                    <!-- <form #newform = "ngForm" (ngSubmit) = userLogin(newform.value) novalidate> -->
+                    <form class="mt-2" [formGroup]="registerForm" (ngSubmit)="submitHandler()">
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control" name="username" formControlName="username"
+                                placeholder="Enter Username">
+                            <label class="error ng-binding" *ngIf="submitted && f['username'].invalid">Name is required
+                            </label>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" name="useremail" formControlName="useremail"
+                                placeholder="Enter email">
+                            <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid">Email is required</label>
+                            <label class="error ng-binding"
+                                *ngIf="submitted && f['useremail'].errors?.['useremail']">Email must be valid email address</label></div>
+                        <br>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Password</label>
+                            <input type="password" class="form-control" name="password" formControlName="password"
+                                placeholder="Enter password">
+                            <label class="error ng-binding"
+                                *ngIf="submitted && f['password'].errors?.['password']">Password is
+                                required</label>
+                            <label class="error ng-binding"
+                                *ngIf="submitted && f['password'].errors?.['minlength']">Password
+                                must be at least 6 characters</label>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Phone</label>
+                            <input type="text" class="form-control" name="mobile" formControlName="mobile"
+                                placeholder="Enter Mobile number">
+                            <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']">Mobile
+                                number
+                                is
+                                required</label>
+
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-dark newbtn">Register</button>
+                        <div class="text-center ms-mt-x ms-mb-m register-already-account" style="padding-top:10px">
+                            <div class="ms-fs-12 ng-binding" style="color: white; display: flex;justify-content:center; text-align: center;align-items: center; ">Already have an account?
+                                <a class="secondary ng-binding" href="login">
+                                    <!-- <button type="button" class="btn btn-light newbtn">Login</button> -->
+                                    <h5 style="color: white;
+                                    margin: 0;
+                                    margin-left: 3px;
+                                    text-decoration: underline;">Login</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

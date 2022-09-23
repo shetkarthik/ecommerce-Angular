@@ -1,1 +1,67 @@
-<p>about works!</p>
+<!-- 
+<div class="container-fluid">
+    <div class="row">
+        <marquee class="slider">Latest-deals</marquee>
+        <div *ngFor="let d of db">
+            <div class="container">
+        <div class="col-lg-4 col-md-12 col-12">
+                    <figure class="figure">
+                        <img [src]="d.pimage" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">{{d.pname}}</figcaption>
+                        <figcaption class="figure-caption">{{d.pdesc}}</figcaption>
+                        <figcaption class="figure-caption">{{d.price | currency:"INR"}}</figcaption>
+                      </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="ccontainer-fluid">
+  <h1 class="cheading">Coming soon...</h1>
+  <div class="adv">
+    <app-imgcard></app-imgcard>
+  </div>
+  <marquee class="marq">Latest realeases coming this winter....</marquee>
+      <div class="row">
+          <div *ngFor="let d of db">
+              <div class="ccontainer">
+               <div class="col-lg-3 col-md-4 col-12">
+                  <div class="card" id="card" style="width: 19rem; height: 25rem;">
+                  <img src={{d.pimage}} class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="center">
+                      <h5 class="card-title">{{d.pname}}</h5>
+                      <span (click)="show_details(d)" [ngClass]="toggleClass(d)"></span>
+                    </div>
+                    <p *ngIf="d.isOpen==true" [style.color]="'black'" class="card-text">{{d.pdesc}}</p>
+                    <!-- <p class="card-text green">{{prods.status}}</p> -->
+                    <div *ngIf="d.isOpen==true" class="ctextcontainer">
+                    <!-- <p *ngSwitchCase="'Active'" class="text-success">
+                      {{prods.status}}
+                    </p>
+                    <p *ngSwitchCase="'InActive'" class="text-warning">
+                      {{prods.status}}
+                    </p>
+                    <p *ngSwitchCase="'Out of Stock'" class="text-danger">
+                      {{prods.status}}
+                    </p> -->
+                    
+                    <h6 style="font-weight: bold;">{{d.price | currency:"INR"}}</h6>
+                  </div>
+                  </div>
+                  <div class="cnewbtn">
+                <button  class="btn cfirstbtn">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </button>
+               
+                  </div>
+                </div> 
+                <br>
+                </div> 
+             </div>
+  
+      </div>
+      </div>
+   
+  </div>

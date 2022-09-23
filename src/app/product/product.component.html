@@ -1,7 +1,7 @@
 <div class="ccontainer-fluid">
   <h1 class="cheading">Our products</h1>
     <div class="row">
-        <div *ngFor="let prods of product" [ngSwitch]="prods.status">
+        <div *ngFor="let prods of products" [ngSwitch]="prods.status">
             <div class="ccontainer">
              <div class="col-lg-3 col-md-4 col-12">
                 <div class="card" id="card" style="width: 19rem; height: 25rem;">
@@ -14,7 +14,7 @@
                   <p *ngIf="prods.isOpen==true" [style.color]="'black'" class="card-text">{{prods.pdesc}}</p>
                   <!-- <p class="card-text green">{{prods.status}}</p> -->
                   <div *ngIf="prods.isOpen==true" class="ctextcontainer">
-                  <p *ngSwitchCase="'Active'" class="text-success">
+                  <!-- <p *ngSwitchCase="'Active'" class="text-success">
                     {{prods.status}}
                   </p>
                   <p *ngSwitchCase="'InActive'" class="text-warning">
@@ -22,15 +22,19 @@
                   </p>
                   <p *ngSwitchCase="'Out of Stock'" class="text-danger">
                     {{prods.status}}
-                  </p>
-                  <h6>{{prods.price | currency:"INR"}}</h6>
+                  </p> -->
+                  <span style="    font-size: 17px;
+                  font-family: fangsong;
+                  font-weight: bold;">Quantity :</span>
+                  <input class="newinput" type="number" name="quantity" [(ngModel)]="quantity" min="1" max="3">
+                  <h6 style=" font-weight: bold;">{{prods.price | currency:"INR"}}</h6>
                 </div>
                 </div>
                 <div class="cnewbtn">
-              <button class="btn cfirstbtn">
+              <button  class="btn cfirstbtn" (click)="addToCart(products[prods.id-1])">
                 <i class="fa-solid fa-cart-plus"></i>
               </button>
-              <app-counter></app-counter>
+             
                 </div>
               </div> 
               <br>

@@ -1,0 +1,136 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "pname": "Gucci",
+      "status": "InActive",
+      "color": "white",
+      "price": "55000",
+      "pimage": "https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
+      "pdesc": "  Lorem ipsum, oloribus blanditiis, tempore nihil.",
+      "isOpen": false
+    },
+    {
+      "id": 3,
+      "pname": "Chanel",
+      "status": "Out of Stock",
+      "color": "yellow",
+      "price": "60000",
+      "pimage": "https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
+      "pdesc": "  Lorem ipsum, loribus blanditiis, tempore nihil minima.",
+      "isOpen": false
+    },
+    {
+      "id": 4,
+      "pname": "Rolex",
+      "status": "Active",
+      "color": "yellow",
+      "price": "99999",
+      "pimage": "https://content.rolex.com/dam/2022/upright-bba-with-shadow/m228238-0061.png?impolicy=v6-upright&imwidth=270",
+      "pdesc": "Luxury ",
+      "isOpen": false
+    },
+    {
+      "id": 5,
+      "pname": "Rado",
+      "status": "Active",
+      "color": "green",
+      "price": "56000",
+      "pimage": "https://img.tatacliq.com/images/i7/1316Wx1468H/MP000000009123249_1316Wx1468H_202111262103431.jpeg",
+      "pdesc": "Limited edition collection of diamond integrated watches",
+      "isOpen": false
+    }
+  ],
+  "users": [
+    {
+      "username": "shetkart",
+      "useremail": "shetk@g.com",
+      "password": "123456",
+      "mobile": "12345678",
+      "id": 1
+    },
+    {
+      "username": "newuser",
+      "useremail": "newuser@g.com",
+      "password": "123456",
+      "mobile": "12345678",
+      "id": 2
+    },
+    {
+      "username": "newuser2",
+      "useremail": "newuser2@g.com",
+      "password": "",
+      "mobile": "",
+      "id": 3
+    },
+    {
+      "username": "",
+      "useremail": "",
+      "password": "123456",
+      "mobile": "12345678",
+      "id": 4
+    },
+    {
+      "username": "dexter",
+      "useremail": "dexter@gmail.com",
+      "password": "123456",
+      "mobile": "12345678",
+      "id": 5
+    },
+    {
+      "username": "admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin123",
+      "mobile": "12345678",
+      "id": 6
+    },
+    {
+      "username": "shetkar",
+      "useremail": "shet@123.com",
+      "password": "shetshet",
+      "mobile": "12345678",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "id": 5,
+      "pname": "Sugar",
+      "pdescription": "  Lorem ipsum, olestias nulla culpa doloribus blanditiis, tempore nihil minima.",
+      "price": "15000",
+      "img": "https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
+      "quantity": 2,
+      "totalPrice": "15000"
+    },
+    {
+      "id": 2,
+      "pname": "Gucci",
+      "pdescription": "  Lorem ipsum, oloribus blanditiis, tempore nihil minima.",
+      "price": "55000",
+      "img": "https://image.made-in-china.com/44f3j00TuYQCvoaTVrW/Business-Women-Bag-PU-Leather-Handbag-Designer-Tote-Bag-Black-White-Color-Bag-Wholesale-Handbag-Ladies-Handbag-Designer-Handbag-WDL1202-.jpg",
+      "quantity": 3,
+      "totalPrice": "55000"
+    },
+    {
+      "id": 4,
+      "pname": "Suzy",
+      "pdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore.",
+      "price": "5000",
+      "img": "https://m.media-amazon.com/images/I/61e+T7UqcyL._AC_SL1500_.jpg",
+      "quantity": 3,
+      "totalPrice": "5000"
+    },
+    {
+      "id": 6,
+      "pname": "Nyka",
+      "pdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quaerat! Necessitatibus, labore.",
+      "price": "12500",
+      "img": "https://cdn.cliqueinc.com/posts/281389/best-designer-wallets-281389-1616619919451-main.700x0c.jpg",
+      "quantity": 1,
+      "totalPrice": "12500"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

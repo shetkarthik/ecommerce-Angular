@@ -1,6 +1,6 @@
- [
+[
     {
-      "id": 1,
+      "pid": "100",
       "pname": "Decor",
       "status": "Active",
       "color": "green",
@@ -10,7 +10,7 @@
       "isOpen":false
     },
     {
-      "id": 2,
+      "pid": "101",
       "pname": "Gucci",
       "status": "InActive",
       "color": "red",
@@ -20,7 +20,7 @@
       "isOpen":false
     },
     {
-      "id": 3,
+      "pid": "102",
       "pname": "Chanel",
       "status": "Out of Stock",
       "color": "yellow",
@@ -31,7 +31,7 @@
       
     },
     {
-      "id": 4,
+      "pid": "103",
       "pname": "Suzy",
       "status": "Active",
       "color": "green",
@@ -41,7 +41,7 @@
       "isOpen":false
     },
     {
-      "id": 5,
+      "pid": "104",
       "pname": "Sugar",
       "status": "InActive",
       "color": "red",
@@ -51,7 +51,7 @@
       "isOpen":false
     },
     {
-      "id": 6,
+      "pid": "105",
       "pname": "Nyka",
       "status": "Active",
       "color": "green",
@@ -61,7 +61,7 @@
       "isOpen":false
     },
     {
-      "id": 7,
+      "pid": "106",
       "pname": "Beethoven",
       "status": "Out of Stock",
       "color": "yellow",
@@ -71,7 +71,7 @@
       "isOpen":false
     },
     {
-      "id": 8,
+      "pid": "107",
       "pname": "Zara",
       "status": "Out of Stock",
       "color": "yellow",
@@ -81,7 +81,7 @@
       "isOpen":false
     },
     {
-      "id": 9,
+      "pid": "108",
       "pname": "Shizel",
       "status": "Out of Stock",
       "color": "yellow",

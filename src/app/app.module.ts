@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 
-import { ContactComponent } from './contact/contact.component';
+
 import {FormsModule} from "@angular/forms";
 import { ReactiveFormsModule } from '@angular/forms';
 import { CardComponent } from './home/card/card.component';
@@ -19,6 +19,12 @@ import { GucciComponent } from './gucci/gucci.component';
 import { CounterComponent } from './counter/counter.component';
 import { AboutComponent } from './about/about.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -26,7 +32,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ContactComponent,
+  
     ProductComponent,
     CardComponent,
     ChanelComponent,
@@ -35,7 +41,12 @@ import { HttpClientModule } from '@angular/common/http';
     GucciComponent,
     CounterComponent,
     AboutComponent,
-    
+    ProductdetailsComponent,
+    LoginComponent,
+    SignupComponent,
+    CartItemsComponent,
+    FooterComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,83 @@
+
+.container-fluid{
+    height: 670px;
+    background-color: black;
+}
+
+.imgcontainer{
+
+    height: 670px;  
+}
+
+.imgcontainer img:hover{
+    transition: all 2s ease-in;
+    opacity: 1;
+}
+
+.imgcontainer img{
+    width: 100%;
+    height: 670px;
+    opacity: 0.4;
+}
+
+
+
+.contact_container{
+ height: 600px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+   
+}
+
+
+.heading{
+    text-align: center;
+    color: white;
+    font-family: auto;
+    font-size: 4pc;
+}
+
+.subheading{
+    text-align: center;
+    color: white;
+    font-family: fangsong;
+    font-style: italic;
+    font-size: 18px;
+}
+label{
+    color: white;
+}
+
+.container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin-right: 70px;
+}
+
+.newbtn{
+    display: block;
+    margin: auto;
+}
+
+
+@media  screen and (max-width:580px){
+    
+    .imgcontainer{
+       display: none;
+       width: 0;
+    }
+    
+    .heading{
+        font-size: 2pc;
+    }
+    .subheading{
+        font-size: 12px;
+    }
+}
+
