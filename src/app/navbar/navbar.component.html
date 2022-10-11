@@ -16,7 +16,7 @@
                 <a class="nav-link" href="#" routerLink="">{{item}}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" routerLink="card">Products</a>
+                <a class="nav-link" href="#" routerLink="card" *ngIf="auth">Products</a>
             </li>
             <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,7 +27,7 @@
 
                   </div>                  
               </li> -->
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" *ngIf="auth">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Brands
                 </a>
@@ -41,15 +41,16 @@
             <!-- <li class="nav-item">
                 <a class="nav-link" href="#" routerLink="about">About</a>
             </li> -->
-            <li class="nav-item">
+            <li class="nav-item" *ngIf="auth">
                 <a class="nav-link" href="#" routerLink="about">Comingsoon...</a>
             </li>
             
-            <li class="nav-item">
+            <li class="nav-item"*ngIf="!auth">
                 <a class="nav-link" href="#" routerLink="signup" *ngIf="!auth">Signup</a>
             </li>
+           
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0" *ngIf="auth">
             <input class="form-control mr-sm-2" #search type="search" placeholder="Search" aria-label="Search">
             <button (click)="getdata(search.value)" class="btn my-2 my-sm-0 searchimage" type="submit">
                 <i class="fa-solid fa-magnifying-glass" style="color:black;
@@ -57,7 +58,7 @@
             </button>
          
         </form>
-        <button routerLink="cartitem" style="height: 36px;
+        <button routerLink="cartitem" *ngIf="auth" style="height: 36px;
         padding: 9px;
         margin-left: 5px;
         border: none;
